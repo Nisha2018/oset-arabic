@@ -1760,12 +1760,13 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 .tp-simpleresponsive .slider-button {
     color: #fff;
     border-radius: 40px;
-    padding: 12px 26px;
-    font-size: 14px;
+    font-size: 18px;
+    padding: 18px 40px;
     font-weight: 600;
 }
 .tp-simpleresponsive .slider-button:before {
-    content: "\f063";
+    content: "\f090";
+    right: 25px;
 }
 .dark-slider .rev_slider .slotholder:after {
     width: 100%;
@@ -1816,6 +1817,8 @@ body.dark .header.header-fixed .logo a img.logo-dark {
     position: relative;
 	    display: inline-block;
 		border-radius:4px;
+    border: 2px solid #daa520;
+    padding: 5px;
 }
 .about .about-right-side:before {
 	display: inline-block;
@@ -2169,7 +2172,7 @@ body.dark .header.header-fixed .logo a img.logo-dark {
     color: #fff;
 }
 .portfolio .caption h3 {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 20px;
     text-decoration: none;
     font-weight: 600;

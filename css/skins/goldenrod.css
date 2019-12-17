@@ -110,8 +110,7 @@ body.double-diagonal .logos::before,
 .footer {
     border-top: 2px solid #daa520;
 }
-.social-icons ul.social-icons-team li a,
-.about .about-right-side:before {
+.social-icons ul.social-icons-team li a {
     border: 2px solid #daa520;
 }
 .preloader .loader {
