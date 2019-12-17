@@ -51,7 +51,7 @@
 		});
 		var options = {
 			animationDuration: 0.6,
-			filter: "all",
+			filter: "1",
 			callbacks: {
 				onFilteringStart: function() {},
 				onFilteringEnd: function() {}
