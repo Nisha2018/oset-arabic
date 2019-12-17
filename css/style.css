@@ -1,10 +1,4 @@
-﻿/*
-Template Name: Salimo - One Page Parallax
-Author: Celtano
-Author URI: http://themeforest.net/user/celtano
-Description: Salimo - One Page Parallax
-Version: 1.0
-*/
+﻿
 /*------------------------------------------------------------------
 [Table of contents]
 	+ General
@@ -1874,7 +1868,7 @@ body.dark .header.header-fixed .logo a img.logo-dark {
     font-weight: 600;
 }
 .about .about-content .custom-button:before {
-    content: "\f03e";
+    content: "\f090";
 }
 /* Project Manager
 ---------------------------------------- */
@@ -2175,13 +2169,13 @@ body.dark .header.header-fixed .logo a img.logo-dark {
     color: #fff;
 }
 .portfolio .caption h3 {
-    font-size: 16px;
+    font-size: 13px;
     margin-top: 20px;
     text-decoration: none;
     font-weight: 600;
     padding-left: 15px;
     padding-top: 2px;
-	line-height:16px;
+	line-height:20px;
 }
 .portfolio .caption p {
     font-size: 13px;
@@ -2589,9 +2583,9 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 	margin-top:50px;
 }
 
-.custom-button.link-blog:before {
-	content:"\f044";
-}
+/*.custom-button.link-blog:before {
+	content:"\f090";
+}*/
 
 
 /*** Blog Page ***/
@@ -3906,4 +3900,14 @@ body.skew .portfolio .container  {
     margin-top: 15px;
     padding: 0 15px;
 }
+}
+
+.projectmanager .list{
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+  .team-members .antonio{
+    margin-left: 150px;
+  }
 }
