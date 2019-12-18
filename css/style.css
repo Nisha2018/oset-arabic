@@ -1903,6 +1903,10 @@ body.dark .header.header-fixed .logo a img.logo-dark {
     color: #fff;
 }
 
+.projectmanager h3.desc{
+  font-size: 25px;
+}
+
 .projectmanager .list li{
   margin-bottom: 10px;
 }
@@ -3913,4 +3917,11 @@ body.skew .portfolio .container  {
   .team-members .antonio{
     margin-left: 150px;
   }
+}
+
+.services-box img.goals-icon{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
