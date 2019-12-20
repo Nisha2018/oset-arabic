@@ -1905,6 +1905,8 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 
 .projectmanager h3.desc{
   font-size: 25px;
+  text-align: left;
+  padding-left: 25px;
 }
 
 .projectmanager .list li{
@@ -3604,7 +3606,7 @@ body.dark.blog-page .banner-blog-post .meta {
 		margin-left:-22px;
 	}
 	.services .services-box {
-		    margin: 30px -9px;
+		    margin: 0px -9px;
 	}
 	.services .services-box-item-cover, .services .services-box-item-content {
 		 transform: none;
@@ -3702,6 +3704,11 @@ body.dark.blog-page .banner-blog-post .meta {
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
+
+    .about .container,.services .container{
+      text-align: center;
+    }
+
     .header-inner,
     .videopromotion p,
     .newsletter p,
@@ -3925,3 +3932,4 @@ body.skew .portfolio .container  {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+

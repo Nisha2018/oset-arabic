@@ -3087,6 +3087,13 @@ website:   	http://www.themepunch.com
 	.revtp-form input[type="email"] { width: 200px !important; }
 }
 
+.banner-text.tp-caption.NotGeneric-Title,.NotGeneric-Title
+{
+	font-size:30px;
+	line-height:70px;
+	
+}
+
 .revtp-searchform input[type="submit"],
 .revtp-form input[type="submit"] {	
 	font-family: "Arial", sans-serif;
